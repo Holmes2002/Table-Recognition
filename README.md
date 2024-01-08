@@ -12,7 +12,7 @@ pip install -r requirements.txt
 pip install torch==1.6.0+cu101 -f https://download.pytorch.org/whl/torch_stable.html
 chmod +x  *.sh
 cd lib/models/networsk/DCNv2
-./make.sh
+python3 setup.py build develop
 ```
 ### Inference
 Download and unzip checkpoint [Here](https://drive.google.com/file/d/1n33c9jmGmjSfRbheleE1pqiIXBb_BCEw/view?usp=sharing)
