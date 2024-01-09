@@ -1,5 +1,5 @@
 # Table-Recognition-LORE
-### Attention that This repo will be active If your cuda version <= 11.4
+### Recommand using Cuda version <=11.8
 ### Set up environment
 ```
 cd LORE-TSR/src
