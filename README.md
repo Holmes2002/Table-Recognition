@@ -16,6 +16,7 @@ chmod +x  *.sh
 cd lib/models/networsk/DCNv2
 python3 setup.py build develop
 ```
+### Note: if It causes error : Unknown CUDA arch (8.9,9.0,...) or GPU not supported --> export TORCH_CUDA_ARCH_LIST=7.5 or export TORCH_CUDA_ARCH_LIST=6.0 .The rerun setup.py
 ### Inference
 Download and unzip checkpoint [Here](https://drive.google.com/file/d/1n33c9jmGmjSfRbheleE1pqiIXBb_BCEw/view?usp=sharing)
 Change folder path in --demo, --load_model and --load_processor in folder checkpoint
