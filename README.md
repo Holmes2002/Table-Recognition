@@ -5,6 +5,8 @@
 cd LORE-TSR/src
 curl https://repo.anaconda.com/archive/Anaconda3-2021.11-Linux-x86_64.sh --output anaconda.sh
 bash anaconda.sh
+export PATH="/usr/local/cuda-11.8/bin:$PATH"
+export LD_LIBRARY_PATH=/usr/local/cuda-11.8/lib64${LD_LIBRARY_PATH:+:${LD_LIBRARY_PATH}}
 source ~/.bashrc
 conda create --name Lore python=3.7
 conda activate Lore
